@@ -1,0 +1,19 @@
+@import "normalize";
+@import "variables";
+@import "mixins";
+
+.wrapper{
+    width: 100vh;
+    height: 100vh;
+    background-color: #f2ca63;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    
+
+}
+
+     .triangle {
+    @include triangle(50px,$mainColor);
+} 
